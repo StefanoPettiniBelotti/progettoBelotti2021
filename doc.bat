@@ -1,0 +1,1 @@
+..\..\core\php71\php .\lib\phpDocumentor.phar -d . -t docs --ignore log4php/,test/
