@@ -138,7 +138,7 @@
             <div class="accordion-heading">
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-809801494" class="accordion-body collapse in">
+            <div id="namespace-2057060968" class="accordion-body collapse in">
                 <div class="accordion-inner">
 
                     
@@ -159,7 +159,7 @@
                                                                     </nav>
 
                     <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal"><i class="icon-code"></i></a>
-                    <h1><small></small>helper.php</h1>
+                    <h1><small></small>connection.php</h1>
                     <p><em></em></p>
                     
 
@@ -192,126 +192,70 @@
 
                                         <div class="row-fluid">
         <div class="span8 content class">
-            <a id="method_IsNullOrEmptyString" name="method_IsNullOrEmptyString" class="anchor"></a>
+            <a id="method_connect" name="method_connect" class="anchor"></a>
             <article class="method">
-                <h3 class=" ">IsNullOrEmptyString()</h3>
+                <h3 class=" ">connect()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">IsNullOrEmptyString(string  <span class="argument">$str</span>) : boolean</pre>
-                <p><em>Function for basic field validation (present and neither empty nor only white space</em></p>
+                <pre class="signature" style="margin-right: 54px;">connect() : \{}</pre>
+                <p><em>connessione al database di default</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    \{}
+                                            &mdash; <p>la connessione al db di default</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                    <dt>File</dt>
+                    <dd><a href=""><div class="path-wrapper">src\connection.php</div></a></dd>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            package
+                        </th>
+                        <td>
+                                                                                            <p>Default</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                        <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_closeConnection" name="method_closeConnection" class="anchor"></a>
+            <article class="method">
+                <h3 class=" ">closeConnection()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">closeConnection(  <span class="argument">$conn</span>) </pre>
+                <p><em>rilascia la connessione</em></p>
                 
 
                                     <h4>Parameters</h4>
                     <table class="table table-condensed table-hover">
                                                     <tr>
-                                <td>string</td>
-                                <td>$str </td>
                                 <td></td>
+                                <td>$conn </td>
+                                <td><p>la connessione da chiudere</p></td>
                             </tr>
                                             </table>
                 
                 
-                                    <h4>Returns</h4>
-                    boolean
-                                    				
+                				
                             </article>
         </div>
         <aside class="span4 detailsbar">
             <h1><i class="icon-arrow-down"></i></h1>
                                                             <dl>
                                     <dt>File</dt>
-                    <dd><a href=""><div class="path-wrapper">lib\helper.php</div></a></dd>
-                                                                            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">
-                                    <tr>
-                        <th>
-                            package
-                        </th>
-                        <td>
-                                                                                            <p>Default</p>
-                                                    </td>
-                    </tr>
-                            </table>
-        </aside>
-    </div>
-
-                                        <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_clearString" name="method_clearString" class="anchor"></a>
-            <article class="method">
-                <h3 class=" ">clearString()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">clearString(string  <span class="argument">$string</span>) : string</pre>
-                <p><em>pulisce una stringa da eventuali ritorni a capo</em></p>
-                
-
-                                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">
-                                                    <tr>
-                                <td>string</td>
-                                <td>$string </td>
-                                <td><p>stringa da ripulire</p></td>
-                            </tr>
-                                            </table>
-                
-                
-                                    <h4>Returns</h4>
-                    string
-                                            &mdash; <p>stringa ripulita</p>
-                                    				
-                            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>
-                                                            <dl>
-                                    <dt>File</dt>
-                    <dd><a href=""><div class="path-wrapper">lib\helper.php</div></a></dd>
-                                                                            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">
-                                    <tr>
-                        <th>
-                            package
-                        </th>
-                        <td>
-                                                                                            <p>Default</p>
-                                                    </td>
-                    </tr>
-                            </table>
-        </aside>
-    </div>
-
-                                        <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_fromDaoToDTO" name="method_fromDaoToDTO" class="anchor"></a>
-            <article class="method">
-                <h3 class=" ">fromDaoToDTO()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">fromDaoToDTO(object  <span class="argument">$object</span>) : string</pre>
-                <p><em>trasforma un result set in un json</em></p>
-                
-
-                                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">
-                                                    <tr>
-                                <td>object</td>
-                                <td>$object </td>
-                                <td><p>result set da trsformare</p></td>
-                            </tr>
-                                            </table>
-                
-                
-                                    <h4>Returns</h4>
-                    string
-                                            &mdash; <p>json rappresentante il resultset</p>
-                                    				
-                            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>
-                                                            <dl>
-                                    <dt>File</dt>
-                    <dd><a href=""><div class="path-wrapper">lib\helper.php</div></a></dd>
+                    <dd><a href=""><div class="path-wrapper">src\connection.php</div></a></dd>
                                                                             </dl>
             <h2>Tags</h2>
             <table class="table table-condensed">
@@ -337,7 +281,7 @@
             <h3 id="source-view-label"></h3>
         </div>
         <div class="modal-body">
-            <pre data-src="../files/lib\helper.php.txt" class="language-php line-numbers"></pre>
+            <pre data-src="../files/src\connection.php.txt" class="language-php line-numbers"></pre>
         </div>
     </div>
 
