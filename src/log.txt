@@ -1,0 +1,25 @@
+2021-03-10 15:26:22 - INFO - getDaoByKey, tabella:Cliente, chiave:
+2021-03-10 15:26:22 - INFO - funzione connect
+2021-03-10 15:26:22 - DEBUG - tentativo di connessione al db mysql
+2021-03-10 15:26:23 - DEBUG - Connessione riuscita
+2021-03-10 15:26:23 - DEBUG - Creo la query
+2021-03-10 15:26:23 - DEBUG - Eseguo la query SELECT * FROM northwind.Cliente
+2021-03-10 15:26:23 - ERROR - Errore nell'esecuzione della query Table 'northwind.cliente' doesn't exist
+2021-03-10 15:26:23 - DEBUG - Chiudo la connessione
+2021-03-10 15:26:23 - INFO - closeConnection
+2021-03-10 15:27:10 - INFO - getDaoByKey, tabella:Clienti, chiave:
+2021-03-10 15:27:10 - INFO - funzione connect
+2021-03-10 15:27:10 - DEBUG - tentativo di connessione al db mysql
+2021-03-10 15:27:11 - DEBUG - Connessione riuscita
+2021-03-10 15:27:11 - DEBUG - Creo la query
+2021-03-10 15:27:11 - DEBUG - Eseguo la query SELECT * FROM northwind.Clienti
+2021-03-10 15:27:11 - DEBUG - Chiudo la connessione
+2021-03-10 15:27:11 - INFO - closeConnection
+2021-03-10 15:29:27 - INFO - getDaoByKey, tabella:Clienti, chiave:
+2021-03-10 15:29:27 - INFO - funzione connect
+2021-03-10 15:29:27 - DEBUG - tentativo di connessione al db mysql
+2021-03-10 15:29:28 - DEBUG - Connessione riuscita
+2021-03-10 15:29:28 - DEBUG - Creo la query
+2021-03-10 15:29:28 - DEBUG - Eseguo la query SELECT * FROM northwind.Clienti
+2021-03-10 15:29:28 - DEBUG - Chiudo la connessione
+2021-03-10 15:29:28 - INFO - closeConnection

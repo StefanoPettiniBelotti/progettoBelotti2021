@@ -1,8 +1,8 @@
-2021-03-03 15:58:42 - DEBUG - Messagio di test
-2021-03-03 15:58:42 - INFO - Messaggio a livello Info
-2021-03-03 15:58:42 - INFO - Messaggio a livello Debug
-2021-03-03 15:58:42 - INFO - Messaggio a livello Error
-2021-03-03 15:59:31 - DEBUG - Messagio di test
-2021-03-03 15:59:31 - INFO - Messaggio a livello Info
-2021-03-03 15:59:31 - DEBUG - Messaggio a livello Debug
-2021-03-03 15:59:31 - ERROR - Messaggio a livello Error
+2021-03-10 15:08:47 - INFO - funzione connect
+2021-03-10 15:08:47 - DEBUG - tentativo di connessione al db mysql
+2021-03-10 15:08:48 - DEBUG - Connessione riuscita
+2021-03-10 15:08:48 - INFO - closeConnection
+2021-03-10 15:17:24 - INFO - funzione connect
+2021-03-10 15:17:24 - DEBUG - tentativo di connessione al db mysql
+2021-03-10 15:17:25 - DEBUG - Connessione riuscita
+2021-03-10 15:17:25 - INFO - closeConnection
