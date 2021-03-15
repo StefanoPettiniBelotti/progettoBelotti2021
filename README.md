@@ -8,3 +8,7 @@ Progetto iniziale per demo sviluppo
 
 5/3/2021
 - errata corrige ed aggiunta della "Guida installazione e configurazione Visual Studio Code + PHP".
+
+10/3/2021
+- completato sviluppo sorgente
+- overview Web Servcies REST
